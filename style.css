@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    background:linear-gradient(to left bottom, lightblue, lightpink, lightblue);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+}
+
+.container{
+    background-color: rgba(255,255,255,.3);
+    padding : 40px;
+    box-shadow: 0 6px 10px rgba(0,0,0,.3);
+    border-radius: 25px;
+    width: 70%;
+    text-align: center;
+    color:black;
+}
+
+.heading{
+    font-size: 35px;
+    font-weight: 100;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+}
+
+.joke{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 40px;
+}
+
+.btn{
+    font-size: 10px;
+    font-weight: 500;
+    border-style:none ;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 15px;
+    background-color: rgba(255,255,255,.3);
+    border-color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: black;
+}
+
+.btn:hover{
+    background-color: rgba(255,255,255,.6);
+    box-shadow: 0 4px 4px rgba(0,0,0,.3);
+    transition: all 300ms ease;
+}
